@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "buoi4",
+    "name": "Student Manager",
     "slug": "buoi4",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +25,14 @@
     },
     "plugins": [
       "expo-router",
+      "expo-localization",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Cho phép ứng dụng truy cập ảnh để chọn ảnh đại diện sinh viên.",
+          "microphonePermission": false
+        }
+      ],
       [
         "expo-splash-screen",
         {
